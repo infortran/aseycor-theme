@@ -1,7 +1,7 @@
 /*
 Theme Name: Aseycor
 Text Domain: Aseycor
-Version: 0.2
+Version: 0.3
 Description: Tema personalizado para ASEyCOR asesoria y corretaje
 Tags: responsive, custom
 Author: Infortran Servicios Informaticos.
@@ -505,6 +505,7 @@ main {
     margin: 0px;
     font-size: 17px;
     font-family: "Roboto", sans-serif;
+    text-transform: uppercase;
     font-weight: 900;
     padding: 0px 10px;
     overflow: hidden;
@@ -805,7 +806,7 @@ main {
 }
 
 .footer__content {
-    background: linear-gradient(to bottom, var(--primary-color), var(--primary-light-color));
+    background: var(--primary-light-color-2);
     height: 100%;
     display: flex;
     flex-wrap: wrap;
